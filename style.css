@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 
-.grid-layout {
+main {
   display: grid;
   display: flex;
   background-color: aquamarine;
@@ -15,7 +15,19 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
-  .caja {
+  .logo{
+    height: 250px;
+    border-radius: 50%;
+  }
+  .menu{
+    height: 50px;
+  }
+  
+  .desplegable{
+    border-radius: 7px;
+  }
+
+   .caja {
     border: 4p solid black;
     line-height: 150px;
   }
