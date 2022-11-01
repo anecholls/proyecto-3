@@ -50,23 +50,48 @@
         <p>Brindamos servicio de teletransporte con los más altos niveles de seguridad, calidad y confort.</p>
       </div>
       <!--formulario-->
-      <form>
+      <section>
+        <form>
         <div class="formulario">
           <label>Ida y Vuelta</label>
-          <select>
+          <select class="selec">
             <option value="ida">Solo ida</option>
             <option value="ida-vuelta">Ida y vuelta</option>
           </select>
         </div>
         <div class="formulario">
           <label>Pasajeros</label>
-          <select>
-            <option value="ida">Solo ida</option>
-            <option value="ida-vuelta">Ida y vuelta</option>
+          <select class="selec">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
           </select>
         </div>
+        <div class="formulario">
+          <label>Origen</label>
+          <input type="text" name="origen" placeholder="Ingresa origen">
+        <label></label>
+          <input type="date" name="fecha">
+        </div>
+        <div class="formulario">
+          <label>Destino</label>
+          <input type="text" name="destino" placeholder="Ingresa destino">  
+          <label></label>
+          <input type="date" name="fecha">
+        </div>
+        <div class="booking">
+        <button>RESERVA</button>
+        </div>
       </form>
-      <div class="caja c3">LATERAL</div>
+      </section>  
+        <div class="caja c3">LATERAL</div>
       <div class="caja c4">FOOTER</div>
     </main>
   </body>
