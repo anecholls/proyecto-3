@@ -1,91 +1,22 @@
-body {
-  background-color: antiquewhite;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
 
-main {
+
+.grid-layout {
   display: grid;
   display: flex;
-  background-color: aquamarine;
+  background-color: #ebedd6;
   border: 1px solid lawngreen;
   grid-template-columns: 80% auto;
   grid-template-rows: 10% 70% auto; /*en teoria tendria que poner el contenido al lado de la barre lateral pero no funciona socorro */
   height: 650px;
   grid-template-columns: repeat(3, 1fr);
+  
 }
 
-  .logo{
-    height: 250px;
-    border-radius: 50%;
-  }
-  .menu{
-    height: 50px;
-  }
-  
-  .desplegable{
-    border-radius: 7px;
-  }
-
-  section {
-    background-color: #006970;
-    opacity: 150;
-    height: 20rem;
-    
-  }
-  form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 30rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .formulario{
-    display: flex;
-    flex-direction: column;
-    width: 14rem;
-    margin: 0.5rem 0.5rem;
-  }
-  .formulario label{
-    margin-bottom: 0.1rem;
-    color:white;
-    margin-top: 0.2rem;
-    
-    
-  }
-  .selec{
-    height: 2.2rem;
-    border: 2px;
-    border-radius: 10%
-
-  }
-
-  .formulario label{
-    height: 2.2rem;
-    border: 2px;
-    border-radius: 10%;
-    
-  }
-  .formulario input{
-    height: 2.2rem;
-    border: 2px;
-    border-radius: 10%;
-  }
-
-  .booking{
-    display: flex;
-    justify-content: center;
-
-    margin-top: 1rem;
-    margin-right: auto;
-    margin-left: auto;
-  }
-   .caja {
-    border: 4p solid black;
-    line-height: 150px;
-  }
+.caja {
+  border: 4p solid black;
+  line-height: 150px;
+  color: #ebedd6;
+}
 
 
 .c1 {
@@ -109,4 +40,88 @@ main {
 .c4 {
   grid-column: 1/ 2 span;
   background-color: blue;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  
+}
+body {
+  background-image: url(fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+button{
+  color: #ebedd6;
+  background: transparent;
+  border: 2px solid #006970;
+  border-radius: 10px;
+  font-size: 120%;
+  width: 80%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  width: 100%;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-image: none;
+}
+.dropdown-content a {
+  display: block;
+  color: #ebedd6;
+  padding: 20px;
+  text-decoration: none;
+  background-image: none;
+  
+}
+.dropdown-content a:hover {
+  color: #006970;
+  
+}
+.grid {
+  display: grid;
+grid-template-columns: 70% 10% 10% 10%;
+}
+
+
+.nombre {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 20px;
+  font-size: 150%;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ebedd6;
+}
+.Idioma {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-top: 20%;
+  text-align: center;
+ 
+
+}
+.login {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: center;
+  margin-top: 15%;
+}
+.menu {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  text-align: center;
+  margin-top: 15%;
+}
+p {
+  color: #ffff;
 }
