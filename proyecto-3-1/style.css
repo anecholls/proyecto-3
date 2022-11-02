@@ -212,3 +212,71 @@ p {
     margin-right: auto;
     margin-left: auto;
     }
+
+.comfort-1{
+    color: black;
+    background-color:rgb(255, 255, 255);
+    height: 0px;
+    opacity: 0;
+    transition: 0;
+    overflow: hidden;
+    list-style: none;
+  }
+ 
+  .comfort{
+    height: 80px;
+  }
+
+  .comfort:hover + .comfort-1{
+    height: 8rem;
+    width: 20rem;
+    opacity: 1;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .quality-1{
+    color: black;
+    background-color:rgb(255, 255, 255);
+    height: 0px;
+    opacity: 0;
+    transition: 0;
+    overflow: hidden;
+    list-style: none;
+  }
+ 
+  .quality{
+    height: 100px;
+  }
+
+  .quality:hover + .quality-1{
+    height: 8rem;
+    width: 20rem;
+    opacity: 1;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .baggage-1{
+      color: black;
+      background-color:rgb(255, 255, 255);
+      height: 0px;
+      opacity: 0;
+      transition: 0;
+      overflow: hidden;
+      list-style: none;
+    }
+   
+    .baggage{
+      height: 80px;
+    }
+  
+    .baggage:hover + .baggage-1{
+      height: 8rem;
+      width: 20rem;
+      opacity: 1;
+      text-align: justify;
+      border-radius: 10px;
+      padding: 20px;
+    }
