@@ -1,14 +1,37 @@
+body {
+  background-image: url(fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.caja {
+  border: 4p solid black;
+  line-height: 150px;
+  color: #ebedd6;
+}
 
 
-.grid-layout {
-  display: grid;
-  display: flex;
-  background-color: #ebedd6;
-  border: 1px solid lawngreen;
-  grid-template-columns: 80% auto;
-  grid-template-rows: 10% 70% auto; /*en teoria tendria que poner el contenido al lado de la barre lateral pero no funciona socorro */
-  height: 650px;
-  grid-template-columns: repeat(3, 1fr);
+.c1 {
+  grid-column: 1/ span 2;
+  grid-row: 1/span 2;
+  
+}
+
+.c2 {
+  
+  
+  
+}
+
+.c3 {
+  
+  
+}
+
+
+.c4 {
+  grid-column: 1/ 2 span;
   
 }
 
@@ -45,12 +68,6 @@
   padding: 0px;
   margin: 0px;
   
-}
-body {
-  background-image: url(fondo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 button{
