@@ -3,8 +3,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger; 
 }
 
+h3{
+  letter-spacing: 2px;
+}
+
+h4{
+  letter-spacing: 2px;
+}
+  
 .completo {
  display: grid;
  grid-template-columns:85% 15% ;
