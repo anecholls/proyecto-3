@@ -151,7 +151,7 @@ p {
     height: 20rem;
     width: 40rem;
     display: grid;
-    border-radius: 15%;
+    border-radius: 5%;
     grid-column-start: 1;
     grid-column-end: 4;
     margin-left: 45rem;
