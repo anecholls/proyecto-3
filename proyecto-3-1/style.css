@@ -69,12 +69,15 @@ display: inline-block;
 }
 .dropdown-content {
   display: none;
-  width: auto;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(239, 237, 237, 0.4);
 
 }
 .dropdown:hover .dropdown-content {
  display: block;
-  background-image: none;
+
 }
 .dropdown-content a {
   display:block;
@@ -82,10 +85,11 @@ display: inline-block;
   padding: 5px;
   text-decoration: none;
   
-  
 }
 .dropdown-content a:hover {
-  color: #006970;
+  background-color: #006970;
+  color: #151b1e;
+  
   
 }
 .grid {
@@ -97,8 +101,8 @@ grid-template-columns: 70% 10% 10% 10%;
 .nombre {
   grid-column-start: 1;
   grid-column-end: 2;
-  padding: 20px;
-  font-size: 150%;
+  margin-left: 10px ;
+  font-size: 180%;
   font-family: 'Times New Roman', Times, serif;
   color: #ebedd6;
 }
@@ -121,20 +125,13 @@ grid-template-columns: 70% 10% 10% 10%;
   text-align: center;
   margin-top: 15%;
 }
-p {
-  color: #ffff;
-}
 
 /* Parte de Sharon que se borró */
 
-.logo{
+.loo{
     height: 250px;
     border-radius: 50%;
   }
-  .menu{
-    height: 50px;
-  }
-  
   .desplegable{
     border-radius: 7px;
   }
