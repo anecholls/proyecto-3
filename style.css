@@ -147,7 +147,7 @@ p {
 
   section {
     background-color: #006970;
-    opacity: 500%;
+    opacity: 0.90;
     height: 20rem;
     width: 40rem;
     display: grid;
@@ -200,14 +200,16 @@ p {
     border-radius: 10%;
   }
 
-  .booking{
+  .boton{
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #006970;
+    color: white;
+    border-radius: 15%;
     display: flex;
-    justify-content: center;
-
-    margin-top: 1rem;
-    margin-right: auto;
-    margin-left: auto;
-    }
+    margin-left: 12rem;
+    font-weight: bold;
+  }
 /*modificado la transicion y position*/
 .comfort-1{
     color: white;
