@@ -74,12 +74,15 @@ display: inline-block;
 }
 .dropdown-content {
   display: none;
-  width: auto;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(239, 237, 237, 0.4);
 
 }
 .dropdown:hover .dropdown-content {
  display: block;
-  background-image: none;
+
 }
 .dropdown-content a {
   display:block;
@@ -87,11 +90,10 @@ display: inline-block;
   padding: 5px;
   text-decoration: none;
   
-  
 }
 .dropdown-content a:hover {
-  color: #006970;
-  
+  background-color: #006970;
+  color: #151b1e;
 }
 .grid {
   display: grid;
