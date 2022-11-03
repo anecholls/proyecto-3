@@ -34,11 +34,11 @@ body {
   
 }
 
-.c3 {
+.caja3  {
   grid-column: 2/3;
   grid-row: 2/3;
-  margin-top: 10rem;
-  margin-left: 55rem;
+  margin-top: 7rem;
+  margin-left: 43rem;
   
 }
 
@@ -69,30 +69,32 @@ button{
 
 }
 .dropdown {
-position: relative;
-display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  width: auto;
-
-}
-.dropdown:hover .dropdown-content {
- display: block;
-  background-image: none;
-}
-.dropdown-content a {
-  display:block;
-  color: #ebedd6;
-  padding: 5px;
-  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(239, 237, 237, 0.4);
   
+  }
+  .dropdown:hover .dropdown-content {
+   display: block;
   
-}
-.dropdown-content a:hover {
-  color: #006970;
-  
-}
+  }
+  .dropdown-content a {
+    display:block;
+    color: #ebedd6;
+    padding: 5px;
+    text-decoration: none;
+    
+  }
+  .dropdown-content a:hover {
+    background-color: #006970;
+    color: #151b1e;
+  }  
 .grid {
   display: grid;
 grid-template-columns: 70% 10% 10% 10%;
@@ -132,13 +134,7 @@ p {
 
 /* Parte de Sharon que se borró */
 
-.logo{
-    height: 250px;
-    border-radius: 50%;
-  }
-  .menu{
-    height: 50px;
-  }
+
   
   .desplegable{
     border-radius: 7px;
@@ -154,8 +150,8 @@ p {
     border-radius: 5%;
     grid-column-start: 1;
     grid-column-end: 4;
-    margin-left: 45rem;
-    margin-top: 6rem;
+    margin-left: 80%;
+    margin-top: 10%;
     
   }
   /*hasta aca*/
@@ -173,6 +169,7 @@ p {
     flex-direction: column;
     width: 14rem;
     margin: 0.5rem 0.5rem;
+  
   }
   .formulario label{
     margin-bottom: 0.1rem;
@@ -201,7 +198,7 @@ p {
   }
 
   .boton{
-    border: 1px solid white;
+    border: 1px solid #ebedd6;
     padding: 10px;
     background-color: #006970;
     color: white;
@@ -209,7 +206,13 @@ p {
     display: flex;
     margin-left: 12rem;
     font-weight: bold;
+    text-decoration: none;
+    
   }
+  .boton:hover {
+    background-color: #008CBA;
+    color: white;
+}
 /*modificado la transicion y position*/
 .comfort-1{
     color: white;
@@ -243,6 +246,7 @@ p {
     height: 0px;
     opacity: 0;
     transition: all .3s ease;
+    
     overflow: hidden;
     list-style: none;
     position: fixed;
@@ -294,4 +298,17 @@ p {
 nav {
   width: 100%;
   position: fixed;
+}
+h2 {
+  letter-spacing: 2px;
+  font-size: 2.5em;
+  
+}
+
+h4 {
+  letter-spacing: 2px;
+  font-size: 1.5em
+}
+.letras {
+  margin-left: 10%;
 }
