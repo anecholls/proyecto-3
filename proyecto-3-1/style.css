@@ -296,6 +296,11 @@ nav {
   position: fixed;
 }
 
+}
+.list-inline{
+  padding-left: 20px;
+}
+
 h3 {
   letter-spacing: 2px;
   font-size: 2.5em;
